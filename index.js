@@ -31,6 +31,11 @@ let array2 = [4, 5, 6];
 let arrayCombinado = [...array1, ...array2];
 console.log(arrayCombinado);
 
+//Crear un array con valores únicos utilizando el método Set() y el operador spread ( ... ):
+let arrayConDuplicados = [1, 2, 2, 3, 4, 4, 5];
+let arrayUnico = [...new Set(arrayConDuplicados)];
+console.log(arrayUnico);
+
 
 
 
