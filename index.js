@@ -36,6 +36,19 @@ let arrayConDuplicados = [1, 2, 2, 3, 4, 4, 5];
 let arrayUnico = [...new Set(arrayConDuplicados)];
 console.log(arrayUnico);
 
+//Crear un array con una función que genere valores dinámicamente:
+function generarValores(cantidad) {
+    let array = [];
+    for (let i = 1; i <= cantidad; i++) {
+        array.push(i);
+    }
+    return array;
+}
+let arrayGenerado = generarValores(5);
+console.log(arrayGenerado);
+
+
+
 
 
 
