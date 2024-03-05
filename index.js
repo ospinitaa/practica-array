@@ -14,3 +14,8 @@ console.log(secuenciaNumerica);
 //Crear un array utilizando el constructor Array()
 let miArray2 = new Array("elemento1", "elemento2", "elemento3");
 console.log(miArray);
+
+//Crear un array mediante la repetición de un valor utilizando el método array fill 
+let repetidoArray = new Array(5).fill("repetido");
+console.log(repetidoArray);
+
