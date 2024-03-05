@@ -19,3 +19,8 @@ console.log(miArray);
 let repetidoArray = new Array(5).fill("repetido");
 console.log(repetidoArray);
 
+//Crear un array a partir de una cadena de texto usando el método String.split() :
+let cadena = "Hola, cómo, estás , pipe";
+let arrayDesdeCadena = cadena.split(", ");
+console.log(arrayDesdeCadena);
+
