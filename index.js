@@ -118,6 +118,15 @@ let parte2 = array.slice(fin); // Obtener la parte después de la porción a eli
 let nuevoArray = parte1.concat(parte2); // Concatenar las partes para obtener el nuevo array
 console.log("Nuevo array después de eliminar la porción:", nuevoArray);
 
+//.elementos al principio del array usando unshift() con spread operator ( ... ):
+let arrayoperator = [3, 4, 5];
+console.log("Array original:", array);
+
+let nuevosElementos = [1, 2];
+array.unshift(...nuevosElementos);
+console.log("Array después de agregar múltiples elementos al principio:", array);
+
+
 
 
 
