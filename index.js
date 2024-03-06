@@ -106,6 +106,19 @@ console.log("Array original:", array);
 let subseccion = array.slice(-2);
 console.log("Subsección del array:", subseccion);
 
+//Eliminar una porción del array sin modificar el original usando slice()
+let arraysinmodificar = [1, 2, 3, 4, 5];
+console.log("Array original:", array);
+
+// Eliminar una porción del array sin modificar el original
+let inicio = 1; // Índice de inicio de la porción que deseamos eliminar
+let fin = 3; // Índice de fin de la porción que deseamos eliminar
+let parte1 = array.slice(0, inicio); // Obtener la parte antes de la porción a eliminar
+let parte2 = array.slice(fin); // Obtener la parte después de la porción a eliminar
+let nuevoArray = parte1.concat(parte2); // Concatenar las partes para obtener el nuevo array
+console.log("Nuevo array después de eliminar la porción:", nuevoArray);
+
+
 
 
 
