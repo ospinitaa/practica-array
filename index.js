@@ -77,6 +77,16 @@ console.log("Array después de agregar un elemento al principio:", array);
 array.unshift(-2, -1);
 console.log("Array después de agregar varios elementos al principio:", array);
 
+// Eliminar el primer elemento del array usando shift() :
+let arrayusandoshift = [1, 2, 3, 4, 5];
+console.log("Array original:", array);
+
+// Eliminar el primer elemento del array
+let elementoEliminadoshift = array.shift();
+console.log("Elemento eliminado:", elementoEliminadoshift);
+console.log("Array después de eliminar el primer elemento:", arrayusandoshift);
+
+
 
 
 
