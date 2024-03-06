@@ -86,6 +86,14 @@ let elementoEliminadoshift = array.shift();
 console.log("Elemento eliminado:", elementoEliminadoshift);
 console.log("Array después de eliminar el primer elemento:", arrayusandoshift);
 
+//Obtener una porción del array usando slice() 
+let arrayslice = [1, 2, 3, 4, 5];
+console.log("Array original:", array);
+
+// Obtener una porción del array desde el índice 1 hasta el índice 3 (sin incluirlo)
+let porcion = array.slice(1, 3);
+console.log("Porción del array:", porcion);
+
 
 
 
