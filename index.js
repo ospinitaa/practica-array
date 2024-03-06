@@ -99,6 +99,14 @@ let arraystring = ["Hola", "mundo", "!"];
 let cadenastring = array.join(" ");
 console.log("Array convertido en string:", cadenastring);
 
+//Obtener una subsección del array desde un índice negativo usando slice()
+let arrayslicenegativo = [1, 2, 3, 4, 5];
+console.log("Array original:", array);
+
+let subseccion = array.slice(-2);
+console.log("Subsección del array:", subseccion);
+
+
 
 
 
