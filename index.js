@@ -94,6 +94,12 @@ console.log("Array original:", array);
 let porcion = array.slice(1, 3);
 console.log("Porción del array:", porcion);
 
+//Convertir un array en un string usando join() :
+let arraystring = ["Hola", "mundo", "!"];
+let cadenastring = array.join(" ");
+console.log("Array convertido en string:", cadenastring);
+
+
 
 
 
