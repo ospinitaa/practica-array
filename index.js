@@ -48,6 +48,12 @@ let arrayGenerado = generarValores(5);
 console.log(arrayGenerado);
 
 
+// Obtener la longitud de un array:
+const array = [5, 4, 3, 2, 1];
+const longitud = array.length;
+console.log("Longitud del array:", longitud);
+
+
 
 
 
