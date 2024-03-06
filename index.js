@@ -68,6 +68,16 @@ let elementoEliminado = array.pop();
 console.log("Elemento eliminado:", elementoEliminado);
 console.log("Array después de eliminar el último elemento:", array);
 
+let arrayelementoeli= [1, 2, 3, 4, 5];
+console.log("Array original:", array);
+
+array.unshift(0);
+console.log("Array después de agregar un elemento al principio:", array);
+
+array.unshift(-2, -1);
+console.log("Array después de agregar varios elementos al principio:", array);
+
+
 
 
 
